@@ -1,1 +1,124 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+body p, body pre {
+    margin-bottom: 13px;
+}
+
+// button
+body a.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #47ea4e;
+    text-align: left;
+    padding: 10px 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    border: 2px solid #47ea4e;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+a.button:hover {
+    background-color: transparent;
+    color: #47ea4e;
+}
+
+a.button-dot {
+    color: #fff !important;
+    font-size: 16px;
+    position: relative;
+}
+
+a.button-dot:hover {
+    color: #fff;    
+}
+
+a.button-dot span {
+    transition: .3s;
+    display: inline-block;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+a.button-dot:hover span {
+    transform: translateX(-8px);
+}
+
+a.button-dot:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 90%;
+    top: -7px;
+    position: absolute;
+    transition: .3s;
+}
+
+a.button-dot:hover:before {
+    width: calc(100% + 30px);
+    height: 51px;
+    border-radius: 50px;
+    top: -18px;
+}
+// h3
+
+h3 {
+    padding: 20px 0;
+}
+
+
+.one_third{
+    margin-right: 8%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.title-description-up {
+    font-size: 16px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.medium-text {
+    color: #000;
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.service-holder:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.site-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}

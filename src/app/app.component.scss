@@ -1,0 +1,165 @@
+// top nav Start
+.sticky-nav{
+    height: 77px !important;
+}
+
+.header{
+    z-index: 99 !important;
+    background-color: #060606;
+    width: 100% !important;
+    top: 0;
+    position: fixed;
+}
+
+.menu-wrapper{
+    width: 98%;
+    max-width: 1450px;
+    min-height: 77px;
+}
+
+.header-logo img {
+    width: 88px;
+    height: 50px;
+}
+// top nav End
+
+// Home Section Start
+#home{
+    background-image: url('../assets/images/hero_image_01.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 77px);
+    display: flex;
+}
+
+.section{
+    position: relative;
+}
+#home .section-wrapper {
+    margin: auto;
+    padding: 0;
+}
+
+h1.big-text {
+    color: #fff;
+    font-size: 80px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+.section-wrapper{
+    position: relative;
+    padding: 200px 0 115px 0;
+    
+}
+// Home Section End
+
+// Services Section Start
+#services {
+    background-image: url('../assets/images/on_black_left.png');
+    background-color: #000000;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.page-title-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #47ea4e;
+    width: 285px;
+    display: inline-block;
+    z-index: 98;
+    height: 130px;
+}
+
+.page-title-holder:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 60px 0 0;
+    border-color: #47ea4e transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.section h3.entry-title {
+    font-size: 16px;
+    line-height: 149%;
+    font-weight: 400;
+    word-break: break-word;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.section-wrapper {
+    position: relative;
+    padding: 200px 0 115px 0;
+}
+
+.content-1170 {
+    width: 1170px;
+}
+
+.one_third {
+    width: 28%;
+}
+
+.service-holder {
+    margin: 25px 0;
+}
+
+.service-num {
+    font-size: 264px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+    line-height: 100%;
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: -10px;
+    transform: translateZ(0);
+}
+// Services Section End
+
+// start about Section
+#about {
+    background-image: url('../assets/images/on_white_right.png');
+    background-color: #ffffff;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.one_half {
+    margin-right: 8%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    width: 46%;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.center-relative{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container{
+    transform: translate3d(0px, -180.478px, 0px);
+    margin-top: 12%;
+    
+}
+// end about Section
+
+// clin

@@ -1,9 +1,9 @@
 // top nav Start
-.sticky-nav{
+.sticky-nav {
     height: 77px !important;
 }
 
-.header{
+.header {
     z-index: 99 !important;
     background-color: #060606;
     width: 100% !important;
@@ -11,7 +11,7 @@
     position: fixed;
 }
 
-.menu-wrapper{
+.menu-wrapper {
     width: 98%;
     max-width: 1450px;
     min-height: 77px;
@@ -21,10 +21,11 @@
     width: 88px;
     height: 50px;
 }
+
 // top nav End
 
 // Home Section Start
-#home{
+#home {
     background-image: url('../assets/images/hero_image_01.jpg');
     background-position: center center;
     background-size: cover;
@@ -33,9 +34,10 @@
     display: flex;
 }
 
-.section{
+.section {
     position: relative;
 }
+
 #home .section-wrapper {
     margin: auto;
     padding: 0;
@@ -47,11 +49,13 @@ h1.big-text {
     line-height: 120%;
     margin-bottom: 40px;
 }
-.section-wrapper{
+
+.section-wrapper {
     position: relative;
     padding: 200px 0 115px 0;
-    
+
 }
+
 // Home Section End
 
 // Services Section Start
@@ -126,6 +130,7 @@ h1.big-text {
     margin-bottom: -10px;
     transform: translateZ(0);
 }
+
 .service-txt h4 {
     font-size: 46px;
     color: #fff;
@@ -157,16 +162,23 @@ h1.big-text {
     clear: right;
 }
 
-.center-relative{
+.center-relative {
     margin-left: auto;
     margin-right: auto;
 }
 
-.img-container{
+.img-container {
     transform: translate3d(0px, -180.478px, 0px);
     margin-top: 12%;
-    
+
 }
+
 // end about Section
 
-// clin
+// clients Section Start
+
+.owl-stage {
+    transform: translate3d(-1820px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: fit-content;
+}

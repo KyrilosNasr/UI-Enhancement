@@ -177,8 +177,52 @@ h1.big-text {
 
 // clients Section Start
 
+#clients{
+    background-image: url('../assets/images/quote_image_01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    width: 100%;
+    overflow: hidden;
+}
 .owl-stage {
     transform: translate3d(-1820px, 0px, 0px);
     transition: all 0s ease 0s;
     width: fit-content;
+}
+
+.carousel-qoute{
+    margin-bottom: 60px;
+    background-image: url('../assets/images/quotes_image.png');
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 74px;
+    background-size: 87px 74px;
+}
+
+.slider-wrapper {
+    padding: 130px;
+}
+
+.text-slide-name {
+    font-size: 18px;
+    line-height: 100%;
+    margin: 0 12px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.carousel-control-prev{
+    margin-top: auto;
+    margin-left: auto;
+    height: fit-content;
+    right: 110px;
+}
+.carousel-control-next{
+    margin-top: auto;
+    margin-left: auto;
+    height: fit-content;
 }

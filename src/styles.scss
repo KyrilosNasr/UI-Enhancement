@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -80,6 +80,12 @@ a.button-dot:hover:before {
     border-radius: 50px;
     top: -18px;
 }
+
+// .carousel-control-prev, .carousel-control-next{
+//     position: unset !important;
+//     top: 100% !important;
+
+// }
 // h3
 
 h3 {

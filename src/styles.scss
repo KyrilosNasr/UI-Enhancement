@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 // @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -13,8 +15,14 @@ body {
     font-family: 'Rubik', sans-serif !important;
 }
 
-body p, body pre {
+body p,
+body pre {
     margin-bottom: 13px;
+}
+
+body a {
+    text-decoration: unset !important;
+    color: unset;
 }
 
 // button
@@ -48,7 +56,7 @@ a.button-dot {
 }
 
 a.button-dot:hover {
-    color: #fff;    
+    color: #fff;
 }
 
 a.button-dot span {
@@ -93,7 +101,7 @@ h3 {
 }
 
 
-.one_third{
+.one_third {
     margin-right: 8%;
     float: left;
     position: relative;

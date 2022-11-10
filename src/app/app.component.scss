@@ -180,8 +180,8 @@ h1.big-text {
 #clients{
     background-image: url('../assets/images/quote_image_01.jpg');
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: space;
+    background-size: 1903px 1011.78px;
 }
 
 .page-title {
@@ -225,4 +225,49 @@ h1.big-text {
     margin-top: auto;
     margin-left: auto;
     height: fit-content;
+}
+
+// clients Section End
+
+// news section start
+
+#news {
+    background-image: url('../assets/images/on_white_left.png');
+    background-color: #ffffff;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.blog-holder-scode {
+    margin-top: 0;
+    width: 1370px;
+    text-align: center;
+}
+
+.blog-item-holder-scode {
+    margin: 30px 0;
+    width: 27%;
+    display: inline-block;
+    margin-right: 8%;
+    vertical-align: text-top;
+    text-align: left;
+}
+
+#blog1{
+    background-image: url('../assets/images/blog_img_01.jpg');
+}
+#blog2{
+    background-image: url('../assets/images/blog_img_02.jpg');
+}
+#blog3{
+    background-image: url('../assets/images/blog_img_03.jpg');
+}
+.latest-posts-background-featured-image-holder {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: .3s;
 }

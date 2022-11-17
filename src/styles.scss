@@ -62,7 +62,17 @@ body a.button {
   width: auto;
   height: auto;
 }
-
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+  display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle !important;
+}
 a.button:hover {
   background-color: transparent;
   color: #47ea4e;

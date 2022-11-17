@@ -603,3 +603,31 @@ h1.big-text {
   font-size: 16px;
   letter-spacing: 2px;
 }
+
+.pricing-grid-content-holder {
+  margin-bottom: 40px;
+}
+
+.pricing-grid ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.pricing-grid ul li {
+  padding: 10px 0;
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.pricing-list span.fa {
+  color: #47ea4e;
+  margin-right: 25px;
+}
+
+.pricing-list.included-no span.fa-times{
+  color: gray;
+  font-size: 27px;
+  text-align: left;
+}

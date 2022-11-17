@@ -358,6 +358,12 @@ h1.big-text {
   padding: 130px;
 }
 
+.text-slider-wrapper .text-slide:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .text-slide-name {
   font-size: 18px;
   line-height: 100%;
@@ -365,6 +371,11 @@ h1.big-text {
   display: inline-block;
   vertical-align: middle;
 }
+ .text-slide-position {
+  letter-spacing: 4px;
+
+}
+
 
 .carousel-control-prev{
   margin-top: auto;
@@ -519,4 +530,76 @@ h1.big-text {
   .portfolio-text-holder{
       opacity: 1;
   }
+}
+// portfolio section end
+
+// pricing section start
+
+.pricing-1{
+  width: 28%;
+  margin-right: 8%;
+  float: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+// grid styling
+.pricing-grid {
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000;
+  position: relative;
+  text-align: left;
+}
+// numbers styling
+.pricing-num:before {
+  content: "";
+  width: 150px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.pricing-num {
+  font-size: 200px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+  line-height: 100%;
+  margin-bottom: -10px;
+  position: absolute;
+  top: -50px;
+  right: -9px;
+  z-index: 1;
+}
+
+
+.pricing-wrapper {
+  padding: 0 15%;
+}
+
+.pricing-grid-title{
+  color: #000;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 40px 0;
+  margin-bottom: 25px;
+}
+
+.pricing-grid-price {
+  font-size: 100px;
+  line-height: 120%;
+  color: #47ea4e;
+  font-weight: 700;
+}
+
+.pricing-grid-desc {
+  font-size: 16px;
+  letter-spacing: 2px;
 }

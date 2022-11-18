@@ -22,6 +22,17 @@ body a {
     text-decoration: unset !important;
     color: unset;
 }
+div{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 
 // button
 body a.button {
@@ -177,7 +188,7 @@ h3 {
 
 // Home Section Start
 #home {
-  background-image: url('../../../assets/images/hero_image_01.jpg');
+  background-image: url('../../../assets/images/landing-page/hero_image_01.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,7 +222,7 @@ h1.big-text {
 
 // Services Section Start
 #services {
-  background-image: url('../../../assets/images/on_black_left.png');
+  background-image: url('../../../assets/images/landing-page/on_black_left.png');
   background-color: #000000;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -253,11 +264,6 @@ h1.big-text {
   margin-top: 32px;
 }
 
-.section-wrapper {
-  position: relative;
-  padding: 200px 0 115px 0;
-}
-
 .content-1170 {
   width: 1170px;
 }
@@ -293,7 +299,7 @@ h1.big-text {
 
 // start about Section
 #about {
-  background-image: url('../../../assets/images/on_white_right.png');
+  background-image: url('../../../assets/images/landing-page/on_white_right.png');
   background-color: #ffffff;
   background-position: right center;
   background-repeat: no-repeat;
@@ -329,7 +335,7 @@ h1.big-text {
 // clients Section Start
 
 #clients{
-  background-image: url('../../../assets/images/quote_image_01.jpg');
+  background-image: url('../../../assets/images/landing-page/quote_image_01.jpg');
   background-position: center center;
   background-repeat: space;
   background-size: 1903px 1011.78px;
@@ -347,7 +353,7 @@ h1.big-text {
 
 .carousel-qoute{
   margin-bottom: 60px;
-  background-image: url('../../../assets/images/quotes_image.png');
+  background-image: url('../../../assets/images/landing-page/quotes_image.png');
   background-repeat: no-repeat;
   width: 87px;
   height: 74px;
@@ -394,7 +400,7 @@ h1.big-text {
 // news section start
 
 #news {
-  background-image: url('../../../assets/images/on_white_left.png');
+  background-image: url('../../../assets/images/landing-page/on_white_left.png');
   background-color: #ffffff;
   background-position: left center;
   background-repeat: no-repeat;
@@ -417,13 +423,13 @@ h1.big-text {
 }
 
 #blog1{
-  background-image: url('../../../assets/images/blog_img_01.jpg');
+  background-image: url('../../../assets/images/landing-page/blog_img_01.jpg');
 }
 #blog2{
-  background-image: url('../../../assets/images/blog_img_02.jpg');
+  background-image: url('../../../assets/images/landing-page/blog_img_02.jpg');
 }
 #blog3{
-  background-image: url('../../../assets/images/blog_img_03.jpg');
+  background-image: url('../../../assets/images/landing-page/blog_img_03.jpg');
 }
 
 .img-holder {
@@ -633,4 +639,14 @@ h1.big-text {
 }
 .pricing-button{
   text-align: center;
+}
+// pricing section end
+
+// team section start
+#team {
+  background-image: url('../../../assets/images/landing-page/on_black_left.png');
+  background-color: #000000;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }

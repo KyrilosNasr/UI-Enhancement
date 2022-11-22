@@ -809,7 +809,7 @@ h1.big-text {
   padding-bottom: 35px;
 }
 
-.first_half{
+.first_half {
   margin-right: 8%;
   margin-bottom: 30px;
   float: left;
@@ -817,13 +817,14 @@ h1.big-text {
   width: 46%;
 }
 
-.first_half{
-  p.desc{
+.first_half {
+  p.desc {
     color: #b3b3b3;
     font-size: 16px;
   }
 }
-.last{
+
+.last {
   margin-right: 0 !important;
   margin-bottom: 30px;
   position: relative;
@@ -846,7 +847,7 @@ h1.big-text {
 }
 
 .skill-percent {
-  color:#b3b3b3;
+  color: #b3b3b3;
   font-size: 48px;
   line-height: 100%;
   font-weight: 100;
@@ -880,3 +881,70 @@ h1.big-text {
 }
 
 // Skills section end
+
+// Millstones section start
+
+#millstones {
+  background-image: url(/src/assets/images/landing-page/on_black_left.png);
+  background-color: #000000;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+div.milestones-holder {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+div.milestone {
+  width: 45%;
+  display: inline-block;
+  margin: 30px 9% 30px 0;
+}
+
+div.milestone {
+
+  .milestone-info-left {
+    margin-right: 35px;
+    text-align: right;
+    width: 30%;
+  }
+}
+
+div.milestone {
+
+  div {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+}
+
+p.milestone-num {
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 0;
+  color: #000000;
+  text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+}
+
+div.milestone {
+  .milestone-info-right {
+    width: 62%;
+  }
+}
+
+div.milestone {
+
+  h5 {
+    color: #fff;
+    max-width: 240px;
+    padding-top: 0;
+    line-height: 115%;
+  }
+}
+
+// Millstones section end

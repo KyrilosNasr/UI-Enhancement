@@ -63,6 +63,46 @@ body a.button {
   height: auto;
 }
 
+.one_half {
+  width: 46%;
+}
+
+
+.contact-form {
+  p {
+
+    input[type=text],
+    input[type=email],
+    textarea {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      border: 0;
+      font-size: 15px;
+      padding: 5px 0;
+      width: 100%;
+      line-height: 25px;
+      color: #000;
+      margin-bottom: 35px;
+      text-indent: 10px;
+      background-color: transparent;
+      border-bottom: 3px solid;
+      border-top-color: unset;
+      border-right-color: unset;
+      border-left-color: unset;
+    }
+  }
+}
+
+.contact-form {
+  p {
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+    }
+  }
+}
+
 a.button:hover {
   background-color: transparent;
   color: #47ea4e;
@@ -314,7 +354,6 @@ h1.big-text {
   float: left;
   position: relative;
   margin-bottom: 30px;
-  width: 46%;
 }
 
 .last {
@@ -948,3 +987,42 @@ div.milestone {
 }
 
 // Millstones section end
+
+// contact section start
+
+.title-description-up {
+  font-size: 16px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.medium-text {
+  color: #000;
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+.contact-p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+
+.contact-form {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #000;
+}
+.contact-form{
+  textarea{
+    height: 150px;
+  }
+}
+.clear {
+  clear: both;
+}
+
+// contact section end

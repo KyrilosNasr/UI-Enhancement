@@ -24,6 +24,10 @@ body a {
   transition: color .3s ease;
 }
 
+body .social a {
+  color: #000 !important;
+}
+
 body a:hover {
   color: #47ea4e;
 }

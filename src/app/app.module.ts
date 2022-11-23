@@ -7,12 +7,14 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { BsDashboardComponent } from './pages/bs-dashboard/bs-dashboard.component';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { BsAdminPanelComponent } from './pages/bs-admin-panel/bs-admin-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    BsDashboardComponent
+    BsDashboardComponent,
+    BsAdminPanelComponent
   ],
   imports: [
     BrowserModule,

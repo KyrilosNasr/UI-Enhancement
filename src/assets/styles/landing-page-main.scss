@@ -1,0 +1,138 @@
+.row>* {
+  padding-left: unset !important;
+  padding-right: unset !important;
+  }
+
+  // landing-Page sets
+  body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #b3b3b3 !important;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  body a {
+    text-decoration: none;
+    color: #47ea4e;
+    transition: color .3s ease;
+  }
+
+  body .social a {
+    color: #000 !important;
+  }
+
+  body a:hover {
+    color: #47ea4e;
+  }
+
+  body p,
+  body pre {
+    margin-bottom: 13px;
+  }
+
+  body a.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #47ea4e;
+    text-align: left;
+    padding: 10px 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    border: 2px solid #47ea4e;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+  }
+  .container-fluid{
+    padding-right: unset !important;
+    padding-left: unset !important;
+    margin-right: unset !important;
+    margin-left: unset !important;
+  }
+  .site-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+      font-family: bootstrap-icons !important;
+      font-style: normal;
+      font-weight: normal !important;
+      font-feature-settings: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      vertical-align: middle !important;
+  }
+  a.button:hover {
+    background-color: transparent;
+    color: #47ea4e;
+  }
+
+  a.button-dot {
+    color: #fff !important;
+    font-size: 16px;
+    position: relative;
+  }
+
+  a.button-dot:hover {
+    color: #fff;
+  }
+
+  a.button-dot span {
+    transition: .3s;
+    display: inline-block;
+    margin-left: 50px;
+    letter-spacing: 1px;
+  }
+
+  a.button-dot:hover span {
+    transform: translateX(-8px);
+  }
+
+  a.button-dot:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 90%;
+    top: -7px;
+    position: absolute;
+    transition: .3s;
+  }
+
+  a.button-dot:hover:before {
+    width: calc(100% + 30px);
+    height: 51px;
+    border-radius: 50px;
+    top: -18px;
+  }
+
+  // media Query for landing page
+  @media (min-width: 925px) {
+
+    .sm-clean ul a span.sub-arrow {
+        margin-top: 0;
+    }
+    .sm-clean ul {
+        padding: 8px 0;
+    }
+  }
+
+  @media (max-width: 925px) {
+
+    .sm-clean ul {
+        background-color: #fff;
+    }
+
+  }

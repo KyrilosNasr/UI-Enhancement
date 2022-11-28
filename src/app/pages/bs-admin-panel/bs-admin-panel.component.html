@@ -1,1 +1,88 @@
-<p>bs-admin-panel works!</p>
+<!-- main page -->
+<div class="container-fluid">
+  <!-- page layout start -->
+  <div class="d-flex flex-column flex-root">
+    <div class="row flex-nowrap">
+      <div id="sidenav" class="col-auto col-md-3 col-xl-2 px-0 ">
+        <div
+          class="d-flex flex-column align-items-center align-items-sm-start px-sm-2  pt-2 min-vh-100 w-100 overflow-hidden">
+          <div class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white w-100 ms-3">
+            <div class="fs-3 me-3 fw-bold"> <i class="bi bi-ticket"></i>
+            </div>
+            <div class="fs-3 fw-bold"><span class="d-none d-sm-inline">Tixia.</span></div>
+          </div>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start w-100 px-3"
+            id="menu">
+            <li id="dashboard" class="nav-item w-100 Dashboard rounded rounded-pill">
+              <a class="nav-link align-middle px-0 align-items-center">
+                <i class="fs-4 py-2 bi-house-door me-3 bg-white rounded rounded-circle "></i>
+
+                <span class="ms-1 d-none d-sm-inline text-white">Dashboard</span>
+              </a>
+            </li>
+            <li class="text-white ps-2 w-100">
+              <a class="nav-link d-flex flex-row align-items-center px-0 text-white justify-content-between">
+                <i class="fs-4 bi bi-calendar2-day"></i>
+                <span class="ms-5 d-none d-sm-inline">Orders</span>
+                <i class=" ms-5 bi bi-caret-right-fill"></i>
+              </a>
+            </li>
+            <li class="text-white ps-2 w-100">
+              <a href="#submenu1" data-bs-toggle="collapse"
+                class="nav-link d-flex flex-row align-items-center px-0 justify-content-between text-white">
+                <i class="fs-4 bi bi-ticket"></i>
+                <span class="ms-1 d-none d-sm-inline">Tickets</span>
+                <i class=" bi bi-caret-down-fill"></i>
+              </a>
+              <ul class="collapse show nav w-100 flex-column text-center" id="submenu1" data-bs-parent="#menu">
+                <li class="text-white d-none d-sm-inline">
+                  <a class="nav-link px-0 text-white ps-3 ms-2">
+                    Add New
+                  </a>
+                </li>
+                <li class="w-100 text-white">
+                  <a class="nav-link px-0 text-white">
+                    <span class="d-none d-sm-inline ms-4 ps-5">Check Schedule</span>
+                  </a>
+                </li>
+                <li class="w-100 text-white">
+                  <a class="nav-link px-0 text-white">
+                    <span class="d-none d-sm-inline ps-2 ms-4">Order List</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="text-white ps-2 w-100">
+              <a class="nav-link d-flex flex-row align-items-center px-0 text-white justify-content-between">
+                <i class="fs-4 bi bi-person"></i>
+                <span class="ms-5 d-none d-sm-inline ps-3">Customer</span>
+                <i class=" ms-5 bi bi-caret-right-fill"></i>
+              </a>
+            </li>
+            <li class="text-white ps-2 w-100">
+              <a class="nav-link d-flex flex-row align-items-center px-0 align-middle text-white">
+                <i class="fs-4 bi bi-webcam"></i>
+                <div class="d-flex flex-row mx-auto position-relative align-items-center">
+                  <span class="ms-4 ps-4 d-none d-sm-inline">Streaming</span>
+                  <div class="row ms-2 align-items-center">
+                    <span class="badge rounded-pill text-bg-danger text-end">
+                      <span class="position-absolute p-1 bg-white border border-danger rounded-circle me-5">
+                      </span>
+                       <span class="ps-3">LIVE</span>
+                      </span>
+                  </div>
+
+                </div>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="col py-3">
+        Content area...
+      </div>
+    </div>
+
+  </div>
+</div>

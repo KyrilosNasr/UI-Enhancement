@@ -1,0 +1,32 @@
+@import '/src/assets/styles/bs-admin-panel.main.scss';
+
+
+// side nav section
+#sidenav {
+  background-color: #222fb9;
+}
+
+#dashboard {
+  background-color: #4d5acc;
+}
+
+#dashboard {
+  i.py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.6rem !important;
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+  }
+}
+// side nav Section End
+
+// top nav section
+
+#icons{
+  button{
+    background-color: #cbd1f5;
+  }
+  span{
+    top: 3px;
+  }
+}

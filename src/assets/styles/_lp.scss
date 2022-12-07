@@ -1,6 +1,7 @@
-.row>* {
-  padding-left: unset !important;
-  padding-right: unset !important;
+:root{
+  .row>* {
+    padding-left: unset !important;
+    padding-right: unset !important;
   }
 
   // landing-Page sets
@@ -72,15 +73,15 @@
       text-transform: none;
       line-height: 1;
       vertical-align: middle !important;
-  }
-  a.button:hover {
-    background-color: transparent;
-    color: #47ea4e;
-  }
+    }
+    a.button:hover {
+      background-color: transparent;
+      color: #47ea4e;
+    }
 
-  a.button-dot {
-    color: #fff !important;
-    font-size: 16px;
+    a.button-dot {
+      color: #fff !important;
+      font-size: 16px;
     position: relative;
   }
 
@@ -122,17 +123,19 @@
   @media (min-width: 925px) {
 
     .sm-clean ul a span.sub-arrow {
-        margin-top: 0;
+      margin-top: 0;
     }
     .sm-clean ul {
-        padding: 8px 0;
+      padding: 8px 0;
     }
   }
 
   @media (max-width: 925px) {
 
     .sm-clean ul {
-        background-color: #fff;
+      background-color: #fff;
     }
 
   }
+
+}

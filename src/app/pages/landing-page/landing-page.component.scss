@@ -1,3 +1,4 @@
+@import '../../../assets/styles/lp';
 *,
 ::after,
 ::before {
@@ -528,7 +529,7 @@ h1.big-text {
   height: 951.5px;
 }
 
-.grid-item a.item-link:after {
+.col a.item-link:after {
   content: "";
   display: block;
   position: absolute;

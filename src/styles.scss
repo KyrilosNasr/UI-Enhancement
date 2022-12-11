@@ -12,7 +12,9 @@
 ///                     /**Adding cursor class to bootstrap */                                ///
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-@import "~bootstrap/scss/bootstrap-utilities";
+// @import "~bootstrap/scss/bootstrap-utilities";
+@import '../node_modules/bootstrap/scss/bootstrap';
+$enable-responsive-font-sizes: true;
 
 //Generate utilites for Cursor
 $utilities: map-merge(

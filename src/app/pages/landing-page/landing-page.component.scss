@@ -64,10 +64,6 @@ body a.button {
   height: auto;
 }
 
-.one_half {
-  width: 46%;
-}
-
 
 .contact-form {
   p {
@@ -306,14 +302,6 @@ h1.big-text {
   margin-top: 32px;
 }
 
-// .content-1170 {
-//   width: 1170px;
-// }
-
-// .one_third {
-//   width: 28%;
-// }
-
 .service-holder {
   margin: 25px 0;
 }
@@ -347,7 +335,10 @@ h1.big-text {
   background-repeat: no-repeat;
   background-size: auto;
 }
-
+.about-section{
+  padding-top: 200px;
+  padding-bottom: 115px;
+}
 .one_half {
   margin-right: 8%;
   float: left;

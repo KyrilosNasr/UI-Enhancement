@@ -1,4 +1,4 @@
-:root{
+:root {
   .row>* {
     padding-left: unset !important;
     padding-right: unset !important;
@@ -51,37 +51,48 @@
     letter-spacing: 2px;
     box-sizing: border-box;
   }
-  .container-fluid{
+
+  .container-fluid {
     padding-right: unset !important;
     padding-left: unset !important;
     margin-right: unset !important;
     margin-left: unset !important;
   }
+
+  .section-py {
+    padding-top: 200px;
+    padding-bottom: 115px;
+  }
+
   .site-wrapper img {
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
   }
-  .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
-    display: inline-block;
-      font-family: bootstrap-icons !important;
-      font-style: normal;
-      font-weight: normal !important;
-      font-feature-settings: normal;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1;
-      vertical-align: middle !important;
-    }
-    a.button:hover {
-      background-color: transparent;
-      color: #47ea4e;
-    }
 
-    a.button-dot {
-      color: #fff !important;
-      font-size: 16px;
+  .bi::before,
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle !important;
+  }
+
+  a.button:hover {
+    background-color: transparent;
+    color: #47ea4e;
+  }
+
+  a.button-dot {
+    color: #fff !important;
+    font-size: 16px;
     position: relative;
   }
 
@@ -125,6 +136,7 @@
     .sm-clean ul a span.sub-arrow {
       margin-top: 0;
     }
+
     .sm-clean ul {
       padding: 8px 0;
     }

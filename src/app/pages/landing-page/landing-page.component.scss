@@ -57,12 +57,6 @@ body a.button {
   box-sizing: border-box;
 }
 
-.site-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
 
 
 .contact-form {
@@ -185,14 +179,6 @@ h3 {
   content: "";
   display: block;
   clear: both;
-}
-
-
-.site-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
 }
 
 .grid {
@@ -502,12 +488,12 @@ h1.big-text {
   margin: 0 auto;
 }
 
-#portfolio-grid {
-  transition: all .5s ease;
-  opacity: 1;
-  transform: translateY(0px);
-  height: 951.5px;
-}
+// #portfolio-grid {
+//   transition: all .5s ease;
+//   opacity: 1;
+//   transform: translateY(0px);
+//   height: 951.5px;
+// }
 
 .col a.item-link:after {
   content: "";
